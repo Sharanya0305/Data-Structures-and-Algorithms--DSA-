@@ -1,4 +1,3 @@
-import java.util.*;
 public class LeftRotate {
     public static void leftRotate(int[]arr, int k){
         int n = arr.length;
@@ -17,7 +16,7 @@ public class LeftRotate {
         }
     }
     public static void main(String[] args) {
-        int[] numbers = {1,2,3,4,5,6,7};
+        int[] numbers = {1,2,3,4,5,6,7,8};
         int k=3;
         leftRotate(numbers,k);
         for(int i=0;i<numbers.length;i++){
